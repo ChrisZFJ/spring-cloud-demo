@@ -2,10 +2,10 @@ server:
   port: 9001
 spring:
   datasource: 
+    driver-class-name: com.mysql.jdbc.Driver
     url: jdbc:mysql://120.79.251.85:3306/scd?useSSL=false
     username: root
     password: admin
-    driver-class-name: com.mysql.jdbc.Driver
 eureka:
   client:
     service-url:
